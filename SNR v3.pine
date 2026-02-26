@@ -1,12 +1,20 @@
-def draw_stats():
-    # Other code...
-    text_size = size.normal
-    # 5 more occurrences of text_size=size.small changed to text_size=size.normal
-    # More code...  
+// Updated code example
 
+// Existing function definitions and other code here
 
-def create_trade():
-    dir_lb = size.normal  # Changed from size.small
-    sl_lb = size.normal   # Changed from size.small
-    tp_lb = size.normal   # Changed from size.small
-    # Other code...
+function draw_stats() {
+    // Other code ...
+    // Change text_size to size.normal
+    cell.setTextSize(size.normal);
+    // Other cell code ...
+}
+
+function create_trade() {
+    // Other code ...
+    dir_lb.setSize(size.normal);
+    sl_lb.setSize(size.normal);
+    tp_lb.setSize(size.normal);
+    // Other trade label code ...
+}
+
+// Remaining code unchanged...
