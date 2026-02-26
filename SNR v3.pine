@@ -1,10 +1,12 @@
-// Updated SNR v3.pine
+def draw_stats():
+    # Other code...
+    text_size = size.normal
+    # 5 more occurrences of text_size=size.small changed to text_size=size.normal
+    # More code...  
 
-// Example of changing text sizes
-stat_table.text_size = size.normal;
 
-dir_lb.text_size = size.normal;
-sl_lb.text_size = size.normal;
-tp_lb.text_size = size.normal;
-
-// Continue with the rest of the file as it is...
+def create_trade():
+    dir_lb = size.normal  # Changed from size.small
+    sl_lb = size.normal   # Changed from size.small
+    tp_lb = size.normal   # Changed from size.small
+    # Other code...
