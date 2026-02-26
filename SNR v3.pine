@@ -1,1 +1,10 @@
-// Your updated content goes here
+// Updated SNR v3.pine
+
+// Example of changing text sizes
+stat_table.text_size = size.normal;
+
+dir_lb.text_size = size.normal;
+sl_lb.text_size = size.normal;
+tp_lb.text_size = size.normal;
+
+// Continue with the rest of the file as it is...
